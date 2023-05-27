@@ -1,2 +1,4 @@
 youtube.com##ytd-browse[page-subtype="subscriptions"] #video-title[title~="#short"i]:upward(ytd-grid-video-renderer)
 youtube.com##ytd-browse[page-subtype="subscriptions"] #video-title[title~="#shorts"i]:upward(ytd-grid-video-renderer)
+! YT Subscriptions tab - Remove all vids shorter than 2 minutes
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
