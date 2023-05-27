@@ -1,0 +1,2 @@
+youtube.com##ytd-browse[page-subtype="subscriptions"] #video-title[title~="#short"i]:upward(ytd-grid-video-renderer)
+youtube.com##ytd-browse[page-subtype="subscriptions"] #video-title[title~="#shorts"i]:upward(ytd-grid-video-renderer)
